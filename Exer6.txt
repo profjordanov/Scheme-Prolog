@@ -1,0 +1,10 @@
+1.
+(car(cdr (cdr '(1 2 3 4 5))))
+
+2.
+(define z '(1 (2 3) 4))
+(car(car (cdr z)))
+(caadr z)
+
+3.
+(reverse '( 2 4 6 8))
