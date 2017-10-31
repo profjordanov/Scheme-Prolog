@@ -11,3 +11,11 @@
 
 4.
 (length '( 2 4 6 8))
+
+5.
+(define (f x) (if (null? x) 0 (+ 1(f (cdr x)))))
+(f '(1 2 3))
+
+6.
+(define (f x)(cond ((null? x) 0)((zero? (car x))(+ 1 (f (cdr x))))(else (f (cdr x)))))
+(f '(0 1 0 2 0 3))
