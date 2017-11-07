@@ -43,3 +43,4 @@
 ((lambda (x y) (+ (* x y)(* 2 x)(* 3 x)))(+ 2 5)(expt 2 3))
 
 10.
+(let ((x 5)(y 6)(sqrt (+ (expt x 2)(expt y 3)))))
