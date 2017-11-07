@@ -32,3 +32,9 @@
                      (else (f (cdr x)))))
 (f '(5 6 -7 3 -2))
 
+
+8.
+(define (f x) (cond ((null? x) ())
+                    ((even? (car x))(cons (expt (car x) 3)(f (cdr x))))
+                    (else (f (cdr x)))))
+(f '(1 2 3 4))
