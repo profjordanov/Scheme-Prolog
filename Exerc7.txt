@@ -1,0 +1,7 @@
+1.
+(define (f x) (cond ((null? x) ())
+                    ((odd? (car x))(cons (car x)(f (cdr x))))
+                    (else (f (cdr x)))))
+(f '(1 2 3 4))
+
+2.
