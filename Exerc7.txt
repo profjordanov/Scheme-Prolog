@@ -8,3 +8,11 @@
 2.
 (define (f x) (if(null? x) () (cons (expt (car x) 2)(f (cdr x)))))
 (f '(1 2 3))
+
+3.
+(define (f x) (if(null? x) () (cons (* (car x) 2)(f (cdr x)))))
+(f '(1 2 3))
+
+(member <obekt> <sposuk>)
+(set! <identifikator> <izraz> )
+
