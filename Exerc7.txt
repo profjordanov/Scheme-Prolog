@@ -15,4 +15,8 @@
 
 (member <obekt> <sposuk>)
 (set! <identifikator> <izraz> )
+4.
+(define x '(1 2 3 4))
+(define (f y) (if (member y x) 'yes (set! x (cons y x))))
+(f 5)
 
