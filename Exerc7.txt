@@ -20,3 +20,8 @@
 (define (f y) (if (member y x) 'yes (set! x (cons y x))))
 (f 5)
 
+5.
+(define (f x y) (cond ((and (null? x)(null? y)) 'yes )
+                            ((or (null? x)(null? y)) 'no)
+                            ((equal? (car x)(car y))(f (cdr x)(cdr y)))
+                            (else 'no )))
