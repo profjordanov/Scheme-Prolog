@@ -4,4 +4,7 @@
                     (else (f (cdr x)))))
 (f '(1 2 3 4))
 
+
 2.
+(define (f x) (if(null? x) () (cons (expt (car x) 2)(f (cdr x)))))
+(f '(1 2 3))
