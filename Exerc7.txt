@@ -25,3 +25,10 @@
                             ((or (null? x)(null? y)) 'no)
                             ((equal? (car x)(car y))(f (cdr x)(cdr y)))
                             (else 'no )))
+
+6.
+(define (f x) (cond ((< (length x) 2) 0)
+                     ((< (* (car x)(cadr x)) 0)(+1 (f (cdr x))))
+                     (else (f (cdr x)))))
+(f '(5 6 -7 3 -2))
+
