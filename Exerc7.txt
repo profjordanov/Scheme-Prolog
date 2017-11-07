@@ -38,3 +38,8 @@
                     ((even? (car x))(cons (expt (car x) 3)(f (cdr x))))
                     (else (f (cdr x)))))
 (f '(1 2 3 4))
+
+9.
+((lambda (x y) (+ (* x y)(* 2 x)(* 3 x)))(+ 2 5)(expt 2 3))
+
+10.
