@@ -44,3 +44,8 @@
 
 10.
 (let ((x 5)(y 6)(sqrt (+ (expt x 2)(expt y 3)))))
+
+11.
+  a.
+  (define (f a b c)(cond ((or (< (+ a b) c) (< (+ a c) b) (< (+ b c) a)) 0)(else 'staa)))
+  (f 2 3 16)
