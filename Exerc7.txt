@@ -49,3 +49,6 @@
   a.
   (define (f a b c)(cond ((or (< (+ a b) c) (< (+ a c) b) (< (+ b c) a)) 0)(else 'staa)))
   (f 2 3 16)
+  b.
+  (define (f a b c) (cond ((and (= a b) (= b c) (= a c)) 3)(else 'niet)))
+  (f 3 3 4)
