@@ -9,6 +9,7 @@ customer_name(002,stilian).
 customer_name(003,genadi).
 customer_name(004,ivan).
 customer_name(005,pesho).
+customer_name(005,miro).
 
 car_country(001,germany).
 car_country(002,bulgaria).
@@ -29,10 +30,10 @@ price(003,1090).
 price(004,9600).
 price(005,7900).
 
-suprug(rosen,iskra).
-supruga(iskra,rosen).
-mlada_maika(nadq).
-interes(01,[programa_zdrave_za_gurba,masaj,sauna,filmi]).
+friend(yordan,stilian).
+enemy(pesho,ivan).
+young_driver(miro).
+interest(01,[programa_zdrave_za_gurba,masaj,sauna,filmi]).
 interes(02,[romantichna_vecherq,masaj_za_nego_neq]).
 interes(05,[romantichna_vecherq,masaj_za_nego_neq]).
 interes(03,[programa_mlada_maika,manikur,frizior]).
