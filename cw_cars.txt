@@ -17,11 +17,11 @@ car_country(004,china).
 car_country(005,romania).
 
 
-oferta_hotel(001,[sauna,masaj,basein,djakuzi,programa_zdrave_za_gurba,zakuska,vecherq]).
-oferta_hotel(002,[zakuska,vecherq,sauna,fitnes,tenis,golf,basein]).
-oferta_hotel(003,[programa_otslabvane,basein,zakuska]).
-oferta_hotel(004,[all_inclusive,programa_mlada_maika,frizior,manikur,pedikur]).
-oferta_hotel(005,[apartament_djidji,romantichna_vecherq,masaj_za_nego_neq]).
+car_extras(001,[conditioner,wipers,hood,tires,windows,gas]).
+car_extras(002,[phone,navigation,bass_box,rack,autopilot,shifter]).
+car_extras(003,[computer,stove,tv,gps,autopilot,chip]).
+car_extras(004,[handbrake,automatic_speeds,parktronic,airbags,wings,tires]).
+car_extras(004,[steering_wheel,brakes,parktronic,salon,tablet,satellite]).
 
 cena_oferta(001,450).
 cena_oferta(002,460).
