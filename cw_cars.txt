@@ -23,11 +23,11 @@ car_extras(003,[computer,stove,tv,gps,autopilot,chip]).
 car_extras(004,[handbrake,automatic_speeds,parktronic,airbags,wings,tires]).
 car_extras(004,[steering_wheel,brakes,parktronic,salon,tablet,satellite]).
 
-cena_oferta(001,450).
-cena_oferta(002,460).
-cena_oferta(003,490).
-cena_oferta(004,600).
-cena_oferta(005,700).
+price(001,4500).
+price(002,6660).
+price(003,1090).
+price(004,9600).
+price(005,7900).
 
 suprug(rosen,iskra).
 supruga(iskra,rosen).
