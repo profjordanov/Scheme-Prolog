@@ -47,19 +47,10 @@ interest(06,002).
 
 
 
-/*
-Imeto na klienta,koito se interesuva ot oferta 001?
+german_car(Name):-car_country(ID_country,germany),
+					car_country(ID_country,Name).
 
-klient(Ime):- interes(Id_k,001),
-ime_klient(D_k,Ime).
-?-klient(Ime),write(Ime),nl.*/
-
-/*
-hotel_ot_kavarna(Ime):-hotel_grad(ID_hotel,kavarna),
-					ime_hotel(ID_hotel,Ime).
-
-?-hotel_ot_kavarna(Ime),write(Ime),nl,fail.
-*/
+?-german_car(Name),write(Name),nl,fail.
 
 /*
 Id-to na oferta s cena 700
