@@ -46,27 +46,37 @@ interest(04,003).
 interest(06,002).
 
 
+/*
+package with price 9600
+?- price(X,9600),write(X),nl.
+*/
 
-german_car(Name):-car_country(ID_country,germany),
-					car_country(ID_country,Name).
-
-?-german_car(Name),write(Name),nl,fail.
 
 /*
-Id-to na oferta s cena 700
-?- cena_oferta(X,700),write(X),nl.
+Name of country 002
+?-car_country(002,X),write(X).
 */
 
-	
 
-	/*Kakvi obshti interesi imat Iskra i Rosen?
+/*
+Common interests
 
- ?- interes(02,X),interes(05,X),write(X),nl.
-
+?- interest(01,X),interest(02,X),write(X),nl.
 */
 
- /*?-interes(04,X),write(X),nl.*/
 
-/*?-oferta_hotel(005,X),write(X),nl.*/
+/*
+customer interested in spec offer
 
-/*?-hotel_grad(002,X),write(X).*/
+customer(Name):- interest(Id_c,001),
+customer_name(D_k,Name).
+?-customer(Name),write(Name),nl.
+*/
+
+
+/*
+Deutsch car
+german_car(Name):-car_country(ID_c, germany),
+					car_model(ID_c, Name).
+?-german_car(Name),write(Name),nl,fail.
+*/
