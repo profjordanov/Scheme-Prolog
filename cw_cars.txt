@@ -4,12 +4,12 @@ car_model(003,peugeot).
 car_model(004,audi).
 car_model(005,lada).
 
-customer_name(001,yordan).
-customer_name(002,stilian).
-customer_name(003,genadi).
-customer_name(004,ivan).
-customer_name(005,pesho).
-customer_name(005,miro).
+customer_name(01,yordan).
+customer_name(02,stilian).
+customer_name(03,genadi).
+customer_name(04,ivan).
+customer_name(05,pesho).
+customer_name(06,miro).
 
 car_country(001,germany).
 car_country(002,bulgaria).
@@ -33,17 +33,17 @@ price(005,7900).
 friend(yordan,stilian).
 enemy(pesho,ivan).
 young_driver(miro).
-interest(01,[programa_zdrave_za_gurba,masaj,sauna,filmi]).
-interes(02,[romantichna_vecherq,masaj_za_nego_neq]).
-interes(05,[romantichna_vecherq,masaj_za_nego_neq]).
-interes(03,[programa_mlada_maika,manikur,frizior]).
-interes(04,programa_za_otslabvane).
-interes(06,[fitnes,tenis,golf,futbol]).
-interes(01,001).
-interes(02,005).
-interes(03,005).
-interes(04,003).
-interes(06,002).
+interest(01,[conditioner,wipers,hood]).
+interest(02,[phone,navigation,bass_box]).
+interest(05,[computer,stove,tv]).
+interest(03,[handbrake,automatic_speeds]).
+interest(04,parktronic).
+interest(06,[salon,tablet,satellite]).
+interest(01,001).
+interest(02,005).
+interest(03,005).
+interest(04,003).
+interest(06,002).
 
 
 
