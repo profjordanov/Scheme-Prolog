@@ -4,19 +4,11 @@ car_model(003,peugeot).
 car_model(004,audi).
 car_model(005,lada).
 
-customer_name(01,yordan).
-customer_name(02,stilian).
-customer_name(03,genadi).
-customer_name(04,ivan).
-customer_name(05,pesho).
-customer_name(06,miro).
-
 car_country(001,germany).
 car_country(002,bulgaria).
 car_country(003,france).
 car_country(004,china).
 car_country(005,romania).
-
 
 car_extras(001,[conditioner,wipers,hood,tires,windows,gas]).
 car_extras(002,[phone,navigation,bass_box,rack,autopilot,shifter]).
@@ -30,9 +22,17 @@ price(003,1090).
 price(004,9600).
 price(005,7900).
 
+customer_name(01,yordan).
+customer_name(02,stilian).
+customer_name(03,genadi).
+customer_name(04,ivan).
+customer_name(05,pesho).
+customer_name(06,miro).
+
 friend(yordan,stilian).
 enemy(pesho,ivan).
 young_driver(miro).
+
 interest(01,[conditioner,wipers,hood]).
 interest(02,[phone,navigation,bass_box]).
 interest(05,[computer,stove,tv]).
