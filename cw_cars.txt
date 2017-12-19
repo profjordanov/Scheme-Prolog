@@ -80,3 +80,7 @@ german_car(Name):-car_country(ID_c, germany),
 					car_model(ID_c, Name).
 ?-german_car(Name),write(Name),nl,fail.
 */
+
+/*
+:)
+*/
