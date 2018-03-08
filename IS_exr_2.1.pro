@@ -1,6 +1,7 @@
-student(1234,Anton).
-student(2345,Marina).
-student(5555,Ivan).
+student(1234,anton).
+student(2345,marina).
+student(5555,ivan).
+
 
 
 subject(1,web).
@@ -15,8 +16,17 @@ mark(5555,2,6).
 mark(5555,3,4).
 
 /*
+Кои са студентите с отлична оценка, без значение предмета? 
 ?- student(X,Y),mark(X,_,6),write(Y),nl,fail.
 */
+
+
+/*
+Кои са предметите, по които студентите имат отличен успех? Да се изведат и имената на студентите. 
+?- student(FN,N),subject(SN,X),mark(FN,SN,6)
+,write(N),write(" has perfect score on "),write(X),nl,fail.
+*/
+
 
 
 
