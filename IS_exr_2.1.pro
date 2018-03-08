@@ -2,8 +2,6 @@ student(1234,anton).
 student(2345,marina).
 student(5555,ivan).
 
-
-
 subject(1,web).
 subject(2,lfp).
 subject(3,mreji).
@@ -37,5 +35,7 @@ mark(5555,3,4).
 subject(Y,lfp),mark(FN,X,6),mark(FN,Y,6),
 write(N),nl,fail.
 */
+
+
 
 
