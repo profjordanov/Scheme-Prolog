@@ -17,17 +17,25 @@ mark(5555,3,4).
 
 /*
 Кои са студентите с отлична оценка, без значение предмета? 
+
 ?- student(X,Y),mark(X,_,6),write(Y),nl,fail.
 */
 
 
 /*
 Кои са предметите, по които студентите имат отличен успех? Да се изведат и имената на студентите. 
+
 ?- student(FN,N),subject(SN,X),mark(FN,SN,6)
 ,write(N),write(" has perfect score on "),write(X),nl,fail.
 */
 
 
+/*
+Има ли студент, който има отлична оценка по ЛФП и Уеб? Да се изведе името му, ако има такъв. 
 
+?- student(FN,N),subject(X,web),
+subject(Y,lfp),mark(FN,X,6),mark(FN,Y,6),
+write(N),nl,fail.
+*/
 
 
