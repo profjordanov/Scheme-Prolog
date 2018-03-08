@@ -14,3 +14,10 @@ mark(2345,3,3).
 mark(5555,2,6).
 mark(5555,3,4).
 
+/*
+?- student(X,Y),mark(X,_,6),write(Y),nl,fail.
+*/
+
+
+
+
