@@ -1,4 +1,4 @@
-naslednik(a,b),
+naslednik(a,b).
 naslednik(a,c).
 naslednik(b,d).
 naslednik(b,m).
