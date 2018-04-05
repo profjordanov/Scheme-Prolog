@@ -1,0 +1,80 @@
+Sex,MaritalStatus,Children,Education,YearsAtCompany,WorkHours,Carier,Salary,Bonuses,Retention Probability
+M,M,2,Graduate Degree,4,57,2,2523,101,Low
+M,M,2,Graduate Degree,14,48,3,5071,127,High
+M,M,2,Graduate Degree,2,42,1,4563,22,Low
+M,S,1,Graduate Degree,11,31,2,8835,265,High
+M,M,1,Graduate Degree,3,47,2,4937,133,High
+M,S,1,Graduate Degree,1,43,0,3673,99,Low
+F,M,1,Graduate Degree,1,59,0,3475,34,Low
+M,M,1,Graduate Degree,11,35,3,8698,304,High
+F,M,2,Graduate Degree,4,60,3,6283,220,High
+M,M,2,Graduate Degree,13,39,3,6981,188,High
+F,M,2,College,13,45,4,2875,78,High
+F,M,2,Graduate Degree,6,54,6,6992,210,High
+M,M,2,Graduate Degree,4,46,0,2523,12,Low
+M,M,1,Graduate Degree,2,53,8,6482,227,High
+M,S,3,College,1,33,2,2216,55,Low
+M,M,2,Graduate Degree,5,52,3,7370,221,High
+F,M,2,Graduate Degree,13,34,3,6297,189,High
+F,W,1,Graduate Degree,11,40,2,5485,165,High
+M,M,1,Graduate Degree,0,41,3,6932,243,High
+F,M,1,College,5,57,2,2091,28,Low
+M,S,1,Graduate Degree,2,38,0,3849,38,Low
+M,M,3,Graduate Degree,3,40,1,7554,42,Low
+M,M,2,College,3,32,2,4069,122,High
+M,M,1,High School,10,45,2,8258,289,High
+F,M,1,High School,2,58,1,2835,44,Low
+M,M,1,College,12,44,2,3100,124,High
+F,M,2,Graduate Degree,9,60,1,4487,157,High
+M,M,0,High School,0,34,1,2447,0,Low
+M,M,2,College,1,54,1,3357,101,High
+M,M,1,High School,5,57,5,7097,284,High
+F,W,1,Graduate Degree,4,30,3,3302,99,High
+M,S,1,College,1,37,0,2759,69,Low
+M,M,3,College,0,37,4,7689,231,High
+F,M,1,Graduate Degree,9,30,2,4199,147,High
+M,M,2,College,1,42,3,5316,159,High
+M,M,0,High School,1,53,1,3399,119,High
+F,M,3,High School,1,44,2,2344,94,High
+M,M,1,Graduate Degree,8,42,3,4469,156,High
+M,M,1,Graduate Degree,2,35,2,7724,232,High
+Sex, MartialStatus, Children, Education, YearsAtCompany, Carier, Salary, Bonuses, RetentionProbability
+M, M, 2, Graduate Degree, 4, 57, 2, 2523, 101, Low
+M, M, 2, Graduate Degree, 14, 48, 3, 5071, 127, High
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
