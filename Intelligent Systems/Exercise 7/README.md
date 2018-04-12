@@ -1,2 +1,2 @@
-Software - Easy-NN
+Software - EasyNN-plus - Neural Network Software
 
